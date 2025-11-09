@@ -1,5 +1,3 @@
-# Linux-machine-health-monitor
-
 #  Storage Check Script
 
 This Bash script monitors disk storage usage for a specified partition and logs the results to a file. It’s designed to run automatically (e.g., via a cron job) and help system administrators detect when disk usage reaches warning or critical levels.

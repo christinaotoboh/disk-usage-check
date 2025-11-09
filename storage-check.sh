@@ -34,7 +34,7 @@ else
 	echo "[OK] Disk usage is at $DISK_USAGE%!. No action required" | tee -a $LOG_FILE
 fi
 
-# Handle errors
+# This script will handle errors
 
 if [[ -z "$DISK_USAGE" ]]; then
 	echo "[ERROR] unable to retreive disk usage. Please check your partition setting. " | tee -a $LOG_FILE
