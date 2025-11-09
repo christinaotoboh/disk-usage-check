@@ -1,6 +1,7 @@
 #  Storage Check Script
 
-This Bash script monitors disk storage usage for a specified partition and logs the results to a file. It’s designed to run automatically (e.g., via a cron job) and help system administrators detect when disk usage reaches warning or critical levels.
+This Bash script monitors disk storage usage for a specified partition and logs the results to a file. It’s designed to run automatically
+ via a cron job and help system administrators detect when disk usage reaches warning or critical levels.
 
 ---
 
@@ -16,7 +17,7 @@ This Bash script monitors disk storage usage for a specified partition and logs 
 ## How It Works
 1. The script first verifies it’s running as **root**.
 2. It logs a new report section with the current date and time.
-3. It checks the usage of the defined partition (e.g., `/dev/sde`).
+3. It checks the usage of the defined partition in this example it's  `/dev/sde`.
 4. Based on usage thresholds:
    - **OK**: Usage below 50%
    - **WARNING**: Usage between 50% and 89%
@@ -30,8 +31,6 @@ This Bash script monitors disk storage usage for a specified partition and logs 
 Storage Check Report Sun Nov  9 08:18:00 WAT 2025
 -----------------------------------
 [OK] Disk usage is at 1%!. No action required
-[OK] Disk usage is at 1%!. No action required
-
 
 
 ---
